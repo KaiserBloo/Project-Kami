@@ -378,7 +378,7 @@ local function initLibrary()
                     BackgroundColor3 = Color3.fromRGB(25, 25, 25);
                     BorderSizePixel = 0;
                     Position = UDim2.new(0, 0, 0, 350);
-                    Size = UDim2.new(1, 0, 0, 350);
+                    Size = UDim2.new(1, 0, 0, 186);
                     library:Create("TextLabel", {
                         Name = "label";
                         BackgroundTransparency = 1.000;
