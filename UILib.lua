@@ -108,6 +108,7 @@ local function initLibrary()
         end);
 
         local gui = Instance.new("ScreenGui", CoreGui);
+        gui.Name = "Kami"
         gui.Enabled = false;
         library.gui = gui;
 
@@ -308,7 +309,7 @@ local function initLibrary()
             });
 
             local boxContainer = library:Create("ScrollingFrame", {
-                Name = "box";
+                Name = name;
                 BorderSizePixel = 0;
                 BackgroundColor3 = Color3.fromRGB(34, 34, 34);
                 Parent = main.border;
@@ -388,6 +389,7 @@ local function initLibrary()
                         TextSize = 12.000;
                     });
                 });
+                
             end;
 
             function section:Toggle(toggleName, callback)
