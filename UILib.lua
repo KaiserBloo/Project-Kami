@@ -378,7 +378,7 @@ local function initLibrary()
                     BackgroundColor3 = Color3.fromRGB(25, 25, 25);
                     BorderSizePixel = 0;
                     Position = UDim2.new(0, 0, 0, 350);
-                    Size = UDim2.new(1, 0, 0, 18);
+                    Size = UDim2.new(1, 0, 0, 350);
                     library:Create("TextLabel", {
                         Name = "label";
                         BackgroundTransparency = 1.000;
@@ -386,7 +386,7 @@ local function initLibrary()
                         Font = "Gotham";
                         Text = labelName;
                         TextColor3 = Color3.fromRGB(255, 255, 255);
-                        TextSize = 12.000;
+                        TextSize = 16.000;
                     });
                 });
                 
